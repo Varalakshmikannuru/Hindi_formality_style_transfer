@@ -11,7 +11,6 @@ This project addresses the unique linguistic challenge of **formality style tran
 
 The model has demonstrated **better performance** than existing baselines like GPT-2, mBART, and IndicGPT in terms of **BLEU score**, **BERTScore**, and **Perplexity**.
 
----
 
 ## 🧾 Key Features
 
@@ -21,7 +20,6 @@ The model has demonstrated **better performance** than existing baselines like G
 * 🔄 Ensemble inference combining both models for improved results
 * 🗣️ Focused on Hindi — a complex, culturally rich, and low-resource language
 
----
  
 ## 🏗️ Models Used
 🔹 **mT5 (Multilingual T5)**
