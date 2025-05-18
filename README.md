@@ -4,24 +4,26 @@
 
 **Bidirectional Text Style Transfer using mT5 and IndicBART**
 
-🧠 overview
-This project addresses the unique linguistic challenge of formality style transfer in Hindi—a task that involves converting informal sentences to formal ones and vice versa, without losing the original meaning. We propose a bidirectional text style transfer model trained on a custom parallel dataset using mT5 and IndicBART.
+## 🧠 Overview
 
-🔄 Both directions — Formal ➡️ Informal and Informal ➡️ Formal — are supported.
+This project addresses the unique linguistic challenge of **formality style transfer in Hindi**—a task that involves converting informal sentences to formal ones and vice versa, without losing the original meaning. We propose a **bidirectional text style transfer model** trained on a custom parallel dataset using **mT5** and **IndicBART**.
 
-The model has demonstrated better performance than existing baselines like GPT-2, mBART, and IndicGPT in terms of BLEU score, BERTScore, and Perplexity.
+> 🔄 Both directions — *Formal ➡️ Informal* and *Informal ➡️ Formal* — are supported.
 
-🧾 Key Features
-* ✨ Bidirectional transfer: Formal to informal & informal to formal
+The model has demonstrated **better performance** than existing baselines like GPT-2, mBART, and IndicGPT in terms of **BLEU score**, **BERTScore**, and **Perplexity**.
 
-* 🤖 Fine-tuned mT5-small and AI4Bharat IndicBART models
+---
 
-* 📊 Evaluated with BLEU, BERTScore, and Perplexity
+## 🧾 Key Features
 
+* ✨ **Bidirectional transfer**: Formal to informal & informal to formal
+* 🤖 Fine-tuned **mT5-small** and **AI4Bharat IndicBART** models
+* 📊 Evaluated with **BLEU**, **BERTScore**, and **Perplexity**
 * 🔄 Ensemble inference combining both models for improved results
-
 * 🗣️ Focused on Hindi — a complex, culturally rich, and low-resource language
-* 
+
+---
+ 
 ## 🏗️ Models Used
 🔹 **mT5 (Multilingual T5)**
 * Pretrained on mC4 corpus
