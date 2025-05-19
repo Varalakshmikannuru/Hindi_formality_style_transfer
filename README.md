@@ -65,23 +65,6 @@ The model has demonstrated **better performance** than existing baselines like G
 * **Beam Search**: Used during inference to enhance fluency
 * **Ensemble Inference**: Combines predictions from mT5 and IndicBART to improve output quality
 
-### Evaluation Metrics
-
-* **BLEU Score**: 23.0
-* **BERTScore**: Precision 0.86, Recall 0.85, F1 0.85
-* **Perplexity**: 8.25
-
-## 📊 Results
-
-| Model         | BLEU  | BERTScore F1 | Perplexity |
-| ------------- | ----- | ------------ | ---------- |
-| **mT5**       | 23.31 | 0.85         | 8.25       |
-| **IndicBART** | 17.84 | 0.81         | 5.36       |
-| **Ensemble**  | 21.65 | 0.84         | 6.20       |
-| GPT-2         | 0.26  | 0.60         | 3.13       |
-| IndicGPT      | 20.01 | 0.63         | 41.77      |
-| mBART         | 8.91  | 0.77         | 15.07      |
-
 
 ## 🔧 Installation
 
