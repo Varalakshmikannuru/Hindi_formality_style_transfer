@@ -1,5 +1,5 @@
 
-# 🇮🇳 Hindi Formality Style Transfer
+# Hindi Formality Style Transfer
 
 **Bidirectional Style Transfer Using mT5 and IndicBART**
 
