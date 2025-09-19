@@ -89,26 +89,6 @@ python train.py --model indicbart --epochs 5 --batch_size 16
 python inference.py --input "formal: क्या आप ठीक हैं?" --model ensemble
 ```
 
-## 🧪 Folder Structure
-
-```
-hindi-formality-transfer/
-│
-├── data/                     # Training and evaluation datasets
-├── models/                   # Saved model checkpoints
-├── src/
-│   ├── train.py              # Training script
-│   ├── inference.py          # Inference script
-│   ├── utils.py              # Utility functions
-│
-├── evaluation/
-│   ├── metrics.py            # Evaluation metrics
-│   └── results/              # Result outputs
-│
-├── README.md
-└── requirements.txt
-```
-
 ## ✍️ Author
 
 **Varalakshmi Kannuru**
